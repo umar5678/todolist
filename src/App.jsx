@@ -5,8 +5,8 @@ import TodosList from "./components/TodosList";
 
 const App = () => {
   const [todosList, setTodosList] = useState(() => {
-    const localData = localStorage.getItem("todosListData");
-    if (localData === null) return [];
+    const localData = localStorage.getItem("todoListData");
+    if (localData == null) return [];
     return JSON.parse(localData);
   });
 
