@@ -1,0 +1,28 @@
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #2947ee;
+  color: rgb(255, 250, 239);
+  cursor: pointer;
+  transition: all 0.25s;
+}
+button:hover {
+  background-color: #0a2df0;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px transparent -webkit-focus-ring-color;
+}
