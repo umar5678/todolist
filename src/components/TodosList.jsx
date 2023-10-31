@@ -1,4 +1,4 @@
-import TodosListItems from "./subComp/TodosListITems";
+import TodosListItems from "./subComp/TodosListItems";
 
 const TodosList = ({ todosList, tglStatus, hdlDel, setTodosList }) => {
   return (
